@@ -11,6 +11,7 @@ struct MyApp: App {
                 //SecondView()
                 //SecondView()
                 FirstView()
+                //ContentView()
             }.navigationViewStyle(.stack)
             
         }

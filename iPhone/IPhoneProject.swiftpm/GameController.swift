@@ -504,7 +504,7 @@ class GameController : SKScene, SKPhysicsContactDelegate {
         addChild(node)
         
         let action = SKAction.animate(with: textures,
-                                      timePerFrame: 23 / TimeInterval(textures.count),
+                                      timePerFrame: 4 / TimeInterval(textures.count),
                                       resize: true,
                                       restore: true)
         // node.run(SKAction.repeatForever(action))
